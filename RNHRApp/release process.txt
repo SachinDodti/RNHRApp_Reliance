@@ -1,0 +1,27 @@
+==========================================================
+Release for android
+==========================================================
+1. Delete node_modules
+2. Run 'npm i' (Should be followed by 'npx jetifiy' automatically)
+3. chmod -R 777 ./android  ==>>> for Android folder Read/Write access
+3. Change 'versionName' under 'defaultConfig' in android/app/build.gradle to the correct number
+4. Increment 'versionCode' by 1 under 'defaultConfig' in android/app/build.gradle.
+5. Delete android/build and android/app/build folders.
+6. Run 'react-native run-android --variant=release'
+
+==========================================================
+Release for ios
+==========================================================
+1. Delete node_modules
+2. Delete ios/Pods
+3. Delete ios/build
+4. Delete ios/RNHRApp.xcworkspace
+5. Run 'npm i'
+5. Run 'cd ios && pod install'
+6. Open RNHRApp.xcworkspace in Xcode
+7. Change the Product->Scheme to Release 
+8. Change the 'Version' in RNHRApp->Targets
+9. Select 'Generic iOS device' in build schemes
+10. Perform build
+11. Delete 'RN18', 'RNYoga', 'React' from Pods.xcodeproject
+12. Perform Archive.

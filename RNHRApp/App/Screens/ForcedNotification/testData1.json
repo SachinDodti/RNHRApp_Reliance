@@ -1,0 +1,54 @@
+{
+    "requestId": "d35e1b92-3572-40ba-9ee2-0e2e3ebd4454",
+    "data": {
+        "listForcedNotifications": [
+            {
+                "AutoId": "190",
+                "DocumentType": "Image",
+                "ShortDescription": "Family Day (Image)",
+                "Description": "",
+                "LINK": "http://124.124.218.139/HRAppWebAPI/api/EmpAttendence/getNoticesDocumentFile?DocumentFileName=QRY52952.jpg",
+                "CreatedOn": "2020-05-18 18:15:29",
+                "Employee_Code": "70104379",
+                "FeedbackType": "NA",
+                "Note": "",
+                "IsPdfDownload": "",
+                "SurveyQuestion": "",
+                "SurveyOptionList": []
+            }
+            // {
+            //     "AutoId": "168",
+            //     "DocumentType": "Pdf",
+            //     "ShortDescription": "Forced Notification BULK- PDF ",
+            //     "Description": "",
+            //     "LINK": "http://124.124.218.139/HRAppWebAPI/api/EmpAttendence/getForcedNotificationDocumentFile?DocumentFileName=Anish_VPN.pdf",
+            //     "CreatedOn": "2020-05-12 20:11:03",
+            //     "Employee_Code": "70104379",
+            //     "FeedbackType": "Consent & Survey",
+            //     "Note": "I have read",
+            //     "IsPdfDownload": "No",
+            //     "SurveyQuestion": "Where you able to relate to this video?",
+            //     "SurveyOptionList": [
+            //         {
+            //             "SurveyOption": "Yes"
+            //         },
+            //         {
+            //             "SurveyOption": "No"
+            //         },
+            //         {
+            //             "SurveyOption": "Maybe"
+            //         },
+            //         {
+            //             "SurveyOption": "Not Sure"
+            //         },
+            //         {
+            //             "SurveyOption": "Almost"
+            //         }
+            //     ]
+            // }
+        ],
+        "forcedNotificationStatus": "incomplete",
+        "forcedNotificationCount": "1"
+    },
+    "error": null
+}

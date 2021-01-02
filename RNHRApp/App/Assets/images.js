@@ -1,0 +1,134 @@
+const IMG_APP_BACKGROUND = require("./Images/img_appbg.png");
+const IMG_AHASTORE = require("./Images/img_icon_ahhastore.png");
+const IMG_ARROW = require("./Images/img_icon_arrow.png");
+const IMG_ATTENDANCE = require("./Images/img_icon_attendence.png");
+const IMG_BACK = require("./Images/img_icon_back.png");
+const IMG_COMMUNICATION = require("./Images/img_icon_communications.png");
+const IMG_EMPLOYEE_HELPDESK = require("./Images/img_icon_employee-helpdesk.png");
+const IMG_ENGAGE = require("./Images/img_icon_engage.png");
+const IMG_ERROR_WHITE = require("./Images/img_icon_error_white.png");
+const IMG_ICON_ERROR = require("./Images/img_icon_error.png");
+const IMG_ICON_WARNING = require("./Images/img_icon_error.png");
+const IMG_HGS = require("./Images/img_icon_hgs.png");
+const IMG_HIRE_TO_JOIN = require("./Images/img_icon_hiretojoin.png");
+const IMG_IDEA_EXPRESS = require("./Images/img_icon_idea-express.png");
+const IMG_INFO = require("./Images/img_icon_info.png");
+const IMG_LMS = require("./Images/img_icon_lms.png");
+const IMG_LOCATION_DIR = require("./Images/img_icon_location-directory.png");
+const IMG_LOGIN = require("./Images/img_icon_login.png");
+const IMG_MOBILE = require("./Images/img_icon_mobileph.png");
+const IMG_NOTIFICATION = require("./Images/img_icon_notification.png");
+const IMG_ORACLE_HR_360 = require("./Images/img_icon_oracle-hr-360.png");
+const IMG_PROFILE = require("./Images/img_icon_profile.png");
+const IMG_REWARDS = require("./Images/img_icon_rewardsrecognization.png");
+const IMG_RIGHT = require("./Images/img_icon_right.png");
+const IMG_SALES_ASSIST = require("./Images/img_icon_sales_assist.png");
+const IMG_LOGO_BAND = require("./Images/img_logoband.png");
+const IMG_SPLASH = require("./Images/launch_screen.png");
+const IMG_ICON_SEARCH = require("./Images/img_icon_search.png");
+const IMG_ICON_CALENDAR = require("./Images/img_icon_calendarview.png");
+const IMG_ICON_DATE_DROPDOWN = require("./Images/img_icon_date_dropdown.png");
+const IMG_ICON_DATE_DROPUP = require("./Images/img_icon_date_dropup.png");
+const IMG_ICON_LIST_DROPDOWN = require("./Images/img_icon_listview_dropdown.png");
+const IMG_ICON_LIST_DROPUP = require("./Images/img_icon_listview_dropup.png");
+const IMG_ICON_LIST = require("./Images/img_icon_listview.png");
+const IMG_ICON_REFRESH = require("./Images/img_icon_refresh.png");
+const IMG_ICON_CLOSE = require("./Images/img_icon_close.png");
+const IMG_LEFT_BLUE_ARROW = require("./Images/img_icon_left_blue_arrow.png");
+const IMG_RIGHT_BLUE_ARROW = require("./Images/img_icon_right_blue_arrow.png");
+const IMG_BDAY = require("./Images/img_icon_bday.png");
+const IMG_WORKANNIVERSARY = require("./Images/img_icon_workanniversaries.png");
+const IMG_ONESTEPUP = require("./Images/img_icon_onestepup.png");
+const IMG_DROPDOWN_BLUE = require("./Images/img_icon_dropdown_Blue.png");
+const IMG_INSTALLATION_PENDING = require("./Images/img_icon_install.png");
+const IMG_INSTALLAED = require("./Images/img_icon_installed.png");
+const IMG_ICON_LOCATION = require("./Images/img_icon_location.png");
+const IMG_ICON_CALL = require("./Images/img_icon_call.png");
+const IMG_ICON_MAIL = require("./Images/img_icon_mail.png");
+const IMG_ICON_VIEW = require("./Images/img_icon_view.png");
+const IMG_MY_TEAM = require("./Images/img_icon_myteam.png");
+const IMG_ICON_ATTENDANCE_ARROW_LEFT = require("./Images/img_icon_arrow_left.png");
+const IMG_ICON_ATTENDANCE_ARROW_RIGHT = require("./Images/img_icon_arrow_right.png");
+const IMG_PDF_VIEW = require("./Images/img_pdf_view.png");
+const IMG_ICON_IMAGE = require("./Images/img_icon_image.png");
+const IMG_ICON_VIDEO = require("./Images/img_icon_video.png");
+const IMG_ICON_WEB = require("./Images/img_icon_web.png");
+const IMG_ICON_WORDDOC = require("./Images/img_icon_worddoc.png");
+const IMG_ICON_BACK_NEW = require("./Images/img_icon_back_new.png");
+const IMG_ICON_SUCCESS = require("./Images/img_icon_success.png");
+const IMG_ICON_INFO = require("./Images/img_icon_blue_info.png");
+const IMG_ICON_TEXT_MESSAGE = require("./Images/img_icon_text_message.png");
+const IMG_MY_TEAM_BLUE = require("./Images/img_icon_my_team_blue.png");
+const IMG_ICON_PPT = require("./Images/img_icon_ppt.png");
+const IMG_ICON_HAPPY = require("./Images/img_icon_happy.png");
+const IMG_ICON_SAD = require("./Images/img_icon_sad.png")
+const IMG_DEFAULT_ICON =
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAACACAYAAADNu93hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHD2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE5LTA3LTE1VDEyOjU4OjI0KzA1OjMwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTA3LTE1VDEyOjU4OjI0KzA1OjMwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxOS0wNy0xNVQxMjo1ODoyNCswNTozMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTA2OGVhNi00NDE4LTk5NDQtOTUzYy1jNTNjMWQ3MjkwOWIiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDoyNzc1ZDYzYy0wZjA1LTBjNGQtOGJhOC05ZTVjOTZiNDg1OTEiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1ZDQwMDU2OC1iZDY5LTU5NDMtOTIwYS0wODFiZGM1MjdmMjYiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1ZDQwMDU2OC1iZDY5LTU5NDMtOTIwYS0wODFiZGM1MjdmMjYiIHN0RXZ0OndoZW49IjIwMTktMDctMTVUMTI6NTg6MjQrMDU6MzAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NTUwNjhlYTYtNDQxOC05OTQ0LTk1M2MtYzUzYzFkNzI5MDliIiBzdEV2dDp3aGVuPSIyMDE5LTA3LTE1VDEyOjU4OjI0KzA1OjMwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDxwaG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDxyZGY6QmFnPiA8cmRmOmxpPnhtcC5kaWQ6MTE3NmU2MGMtODNkMi0xYzRlLThhYzQtOWE0MGY4MDA4N2JhPC9yZGY6bGk+IDxyZGY6bGk+eG1wLmRpZDoyN0E5N0NBMEMwQThFNzExOUMwNkMwQjEyMkZGQUFDQzwvcmRmOmxpPiA8cmRmOmxpPnhtcC5kaWQ6NkJBMkU3NzE5QjZDRTkxMUEzNzJGMjQ4N0M0ODg5NDA8L3JkZjpsaT4gPHJkZjpsaT54bXAuZGlkOkVFOTdERTM5Nzg3RTExRTk5NTIzOTZGM0M3MkQxMTFGPC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNl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";
+
+export {
+  IMG_APP_BACKGROUND,
+  IMG_AHASTORE,
+  IMG_ARROW,
+  IMG_ATTENDANCE,
+  IMG_BACK,
+  IMG_COMMUNICATION,
+  IMG_EMPLOYEE_HELPDESK,
+  IMG_ENGAGE,
+  IMG_ERROR_WHITE,
+  IMG_ICON_ERROR,
+  IMG_ICON_WARNING,
+  IMG_HGS,
+  IMG_HIRE_TO_JOIN,
+  IMG_IDEA_EXPRESS,
+  IMG_INFO,
+  IMG_LMS,
+  IMG_LOCATION_DIR,
+  IMG_LOGIN,
+  IMG_MOBILE,
+  IMG_NOTIFICATION,
+  IMG_ORACLE_HR_360,
+  IMG_PROFILE,
+  IMG_REWARDS,
+  IMG_RIGHT,
+  IMG_SALES_ASSIST,
+  IMG_LOGO_BAND,
+  IMG_SPLASH,
+  IMG_ICON_SEARCH,
+  IMG_ICON_CALENDAR,
+  IMG_ICON_DATE_DROPDOWN,
+  IMG_ICON_DATE_DROPUP,
+  IMG_ICON_LIST_DROPDOWN,
+  IMG_ICON_LIST_DROPUP,
+  IMG_ICON_LIST,
+  IMG_ICON_REFRESH,
+  IMG_ICON_CLOSE,
+  IMG_DEFAULT_ICON,
+  IMG_LEFT_BLUE_ARROW,
+  IMG_RIGHT_BLUE_ARROW,
+  IMG_BDAY,
+  IMG_WORKANNIVERSARY,
+  IMG_ONESTEPUP,
+  IMG_DROPDOWN_BLUE,
+  IMG_INSTALLATION_PENDING,
+  IMG_INSTALLAED,
+  IMG_ICON_LOCATION,
+  IMG_ICON_CALL,
+  IMG_ICON_MAIL,
+  IMG_ICON_VIEW,
+  IMG_MY_TEAM,
+  IMG_ICON_ATTENDANCE_ARROW_LEFT,
+  IMG_ICON_ATTENDANCE_ARROW_RIGHT,
+  IMG_PDF_VIEW,
+  IMG_ICON_IMAGE,
+  IMG_ICON_VIDEO,
+  IMG_ICON_WEB,
+  IMG_ICON_WORDDOC,
+  IMG_ICON_BACK_NEW,
+  IMG_ICON_SUCCESS,
+  IMG_ICON_INFO,
+  IMG_ICON_TEXT_MESSAGE,
+  IMG_MY_TEAM_BLUE,
+  IMG_ICON_PPT,
+  IMG_ICON_HAPPY,
+  IMG_ICON_SAD
+};
